@@ -1,8 +1,13 @@
 package august;
 
+import org.testng.annotations.Test;
+
 public class Locators {
 	
-	public static void main(String[] args) {
+	@Test(groups={"SmokeTest"})
+	
+	public void display()
+	{
 		
 		System.out.println("Hello");
 		System.out.println("Welcome");
